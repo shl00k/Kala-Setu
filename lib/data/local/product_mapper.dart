@@ -1,0 +1,63 @@
+import 'dart:convert';
+import 'package:drift/drift.dart';
+
+import '../../models/product.dart' as domain;
+import 'app_database.dart';
+
+domain.Product productFromRow(Product row) => domain.Product(
+      id: row.id,
+      originalImagePath: row.originalImagePath,
+      imagePath: row.imagePath,
+      title: row.title,
+      description: row.description,
+      material: row.material,
+      design: row.design,
+      type: row.type,
+      color: row.color,
+      length: row.length,
+      width: row.width,
+      weight: row.weight,
+      craftTechnique: row.craftTechnique,
+      category: row.category,
+      keywords: List<String>.from(jsonDecode(row.keywordsJson) as List),
+      sourceLanguage: row.sourceLanguage,
+      materialCost: row.materialCost,
+      labourCost: row.labourCost,
+      margin: row.margin,
+      recommendedPrice: row.recommendedPrice,
+      marketMedian: row.marketMedian,
+      marketFactor: row.marketFactor,
+      pricingConfidence: row.pricingConfidence,
+      pricingRationale: row.pricingRationale,
+      synced: row.synced,
+      createdAt: row.createdAt,
+    );
+
+ProductsCompanion productToRow(domain.Product p) => ProductsCompanion.insert(
+      id: p.id,
+      originalImagePath: Value(p.originalImagePath),
+      imagePath: Value(p.imagePath),
+      title: Value(p.title),
+      description: Value(p.description),
+      material: Value(p.material),
+      design: Value(p.design),
+      type: Value(p.type),
+      color: Value(p.color),
+      length: Value(p.length),
+      width: Value(p.width),
+      weight: Value(p.weight),
+      craftTechnique: Value(p.craftTechnique),
+      category: Value(p.category),
+      keywordsJson: Value(jsonEncode(p.keywords)),
+      sourceLanguage: Value(p.sourceLanguage),
+      materialCost: Value(p.materialCost),
+      labourCost: Value(p.labourCost),
+      margin: Value(p.margin),
+      recommendedPrice: Value(p.recommendedPrice),
+      marketMedian: Value(p.marketMedian),
+      marketFactor: Value(p.marketFactor),
+      pricingConfidence: Value(p.pricingConfidence),
+      pricingRationale: Value(p.pricingRationale),
+      synced: Value(p.synced),
+      createdAt: p.createdAt,
+    );
