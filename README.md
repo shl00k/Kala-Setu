@@ -38,14 +38,70 @@ This repository contains selected Flutter application source code and assets fro
 kala-setu/
 ├── lib/          # Flutter application source code
 ├── assets/       # Application assets
+├── LICENSE       # license
 └── README.md     # Project documentation
 ```
 
 This repository currently contains selected source folders rather than the complete Flutter project configuration.
 
-## 🖼️ Screenshots
+## 🖼️ App Screenshots
 
-to be added.
+Explore some of the key features of Kala Setu.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <a href="assets/images/Multilingual.jpeg">
+          <img src="assets/images/Multilingual.jpeg" alt="Multilingual Support" width="280">
+        </a>
+        <br>
+        <strong>Multilingual Support</strong>
+      </td>
+      <td align="center" width="50%">
+        <a href="assets/images/Image_Enhancement.jpeg">
+          <img src="assets/images/Image_Enhancement.jpeg" alt="Image Enhancement" width="280">
+        </a>
+        <br>
+        <strong>Image Enhancement</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <a href="assets/images/Generate_Catalog.jpeg">
+          <img src="assets/images/Generate_Catalog.jpeg" alt="Catalog Generation" width="280">
+        </a>
+        <br>
+        <strong>Generate Catalog</strong>
+      </td>
+      <td align="center" width="50%">
+        <a href="assets/images/Market_Price.jpeg">
+          <img src="assets/images/Market_Price.jpeg" alt="Market Price Information" width="280">
+        </a>
+        <br>
+        <strong>Market Price</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <a href="assets/images/Cataloging.jpeg">
+          <img src="assets/images/Cataloging.jpeg" alt="Product Cataloging" width="280">
+        </a>
+        <br>
+        <strong>Cataloging</strong>
+      </td>
+      <td width="50%"></td>
+    </tr>
+  </table>
+</div>
+
+## 🎬 App Demo
+
+Watch the screen recording to explore Kala Setu's user interface, navigation, and implemented features.
+
+**[▶️ Watch the Kala Setu App Demo](https://lnkd.in/p/gjARK7Sr)**
+
+The demo showcases the application in action, providing a walkthrough of its implemented functionality.
 
 ## 👨‍💻 My Contributions
 
@@ -77,7 +133,7 @@ Kala Setu represents my experience working on a Flutter application involving UI
 **Flutter Developer | UI/UX Designer**
 *from ideas -> Product*
 
-- LinkedIn: www.linkedin.com/in/shlok1402
-- GitHub: https://github.com/shl00k
+- LinkedIn: [My LinkedIn Profile](www.linkedin.com/in/shlok1402)
+- GitHub: [My GitHub Profile](https://github.com/shl00k)
 
 For collaboration or freelance opportunities, feel free to connect with me on LinkedIn.
