@@ -133,7 +133,7 @@ Kala Setu represents my experience working on a Flutter application involving UI
 **Flutter Developer | UI/UX Designer**
 *from ideas -> Product*
 
-- LinkedIn: [My LinkedIn Profile](www.linkedin.com/in/shlok1402)
+- LinkedIn: [My LinkedIn Profile](www.linkedin.com/in/shlok-sharma-649735320)
 - GitHub: [My GitHub Profile](https://github.com/shl00k)
 
 For collaboration or freelance opportunities, feel free to connect with me on LinkedIn.
